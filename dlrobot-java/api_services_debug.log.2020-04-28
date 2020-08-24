@@ -1,0 +1,3 @@
+2020-04-28-11-11 [http-nio-8081-exec-9] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-28-11-11 [http-nio-8081-exec-8] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  

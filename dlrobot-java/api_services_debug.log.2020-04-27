@@ -1,0 +1,18 @@
+2020-04-27-17-55 [http-nio-8081-exec-10] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-17-55 [http-nio-8081-exec-7] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-17-55 [http-nio-8081-exec-7] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-17-55 [http-nio-8081-exec-2] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-17-55 [http-nio-8081-exec-2] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-17-55 [http-nio-8081-exec-9] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-17-55 [http-nio-8081-exec-9] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-18-05 [http-nio-8081-exec-8] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] [INFO] - HHH000397: Using ASTQueryTranslatorFactory
+  2020-04-27-18-05 [http-nio-8081-exec-8] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-18-06 [http-nio-8081-exec-6] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-18-06 [http-nio-8081-exec-5] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-18-06 [http-nio-8081-exec-9] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-18-06 [http-nio-8081-exec-7] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-18-07 [http-nio-8081-exec-8] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-18-07 [http-nio-8081-exec-6] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-18-07 [http-nio-8081-exec-5] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2020-04-27-18-07 [http-nio-8081-exec-9] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  

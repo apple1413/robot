@@ -1,0 +1,54 @@
+/*
+* @Author: hp
+* @Date:   2017-12-19 10:24:01
+* @Last Modified by:   hp
+* @Last Modified time: 2018-01-04 18:07:53
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+.tck-body{
+	width: 1920px;
+	height: 1080px;
+	background-image: url('../img/tmk.png');
+	position: relative;
+}
+.tck-box{
+	width: 600px;
+	height: 356px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -300px;
+	margin-top: -178px;
+}
+.tck-top{
+	width: 100%;
+	height: 67px;
+	font-size: 	30px;
+	color: #28add3;
+	font-weight: 700;
+	text-align: center;
+	line-height: 67px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.tck-bottom p{
+	width: 548px;
+	padding: 30px 26px 95px 26px;
+	font-size: 20px;
+	color: #585858;
+	line-height: 36px;
+}
+.tck-bottom .btnn{
+	text-align: center;
+}

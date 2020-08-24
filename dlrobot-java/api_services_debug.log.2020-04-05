@@ -1,0 +1,5 @@
+2020-04-05-17-17 [Thread-12] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Shutting down ExecutorService 'applicationTaskExecutor'
+  2020-04-05-17-17 [Thread-12] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+  2020-04-05-17-17 [Thread-12] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown initiated...
+  2020-04-05-17-17 [Thread-12] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown completed.
+  

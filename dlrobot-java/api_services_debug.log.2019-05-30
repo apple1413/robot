@@ -1,0 +1,363 @@
+2019-05-30-09-07 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2019-05-30-09-07 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-5S6RJ4F3 with PID 14188 (started by liuji in E:\深度学习\dlrobot)
+  2019-05-30-09-07 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-05-30-09-07 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-05-30-09-07 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 122ms. Found 2 repository interfaces.
+  2019-05-30-09-07 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81d2cd93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-05-30-09-07 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-05-30-09-07 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3445 ms
+  2019-05-30-09-07 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+  2019-05-30-09-07 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+  2019-05-30-09-07 [main] [org.hibernate.jpa.internal.util.LogHelper] [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2019-05-30-09-07 [main] [org.hibernate.Version] [INFO] - HHH000412: Hibernate Core {5.3.7.Final}
+  2019-05-30-09-07 [main] [org.hibernate.cfg.Environment] [INFO] - HHH000206: hibernate.properties not found
+  2019-05-30-09-07 [main] [org.hibernate.annotations.common.Version] [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+  2019-05-30-09-07 [main] [org.hibernate.dialect.Dialect] [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2019-05-30-09-07 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-09-07 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2019-05-30-09-07 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2019-05-30-09-07 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8081 (http) with context path ''
+  2019-05-30-09-07 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 10.133 seconds (JVM running for 17.329)
+  2019-05-30-10-19 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2019-05-30-10-19 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 14 ms
+  2019-05-30-10-20 [http-nio-8081-exec-4] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] [INFO] - HHH000397: Using ASTQueryTranslatorFactory
+  2019-05-30-10-20 [http-nio-8081-exec-4] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-10-23 [Thread-20] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Shutting down ExecutorService 'applicationTaskExecutor'
+  2019-05-30-10-23 [Thread-20] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-10-23 [Thread-20] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown initiated...
+  2019-05-30-10-23 [Thread-20] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown completed.
+  2019-05-30-10-23 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2019-05-30-10-23 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-5S6RJ4F3 with PID 19632 (started by liuji in E:\深度学习\dlrobot)
+  2019-05-30-10-23 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-05-30-10-23 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-05-30-10-23 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 129ms. Found 2 repository interfaces.
+  2019-05-30-10-23 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7cd4d130] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-05-30-10-23 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-05-30-10-23 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3577 ms
+  2019-05-30-10-23 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+  2019-05-30-10-23 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+  2019-05-30-10-23 [main] [org.hibernate.jpa.internal.util.LogHelper] [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2019-05-30-10-23 [main] [org.hibernate.Version] [INFO] - HHH000412: Hibernate Core {5.3.7.Final}
+  2019-05-30-10-23 [main] [org.hibernate.cfg.Environment] [INFO] - HHH000206: hibernate.properties not found
+  2019-05-30-10-23 [main] [org.hibernate.annotations.common.Version] [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+  2019-05-30-10-23 [main] [org.hibernate.dialect.Dialect] [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2019-05-30-10-23 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-10-23 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2019-05-30-10-23 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2019-05-30-10-23 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8081 (http) with context path ''
+  2019-05-30-10-23 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 9.042 seconds (JVM running for 11.688)
+  2019-05-30-10-23 [http-nio-8081-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2019-05-30-10-23 [http-nio-8081-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 13 ms
+  2019-05-30-10-25 [Thread-13] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Shutting down ExecutorService 'applicationTaskExecutor'
+  2019-05-30-10-25 [Thread-13] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-10-25 [Thread-13] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown initiated...
+  2019-05-30-10-25 [Thread-13] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown completed.
+  2019-05-30-10-25 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2019-05-30-10-25 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-5S6RJ4F3 with PID 21420 (started by liuji in E:\深度学习\dlrobot)
+  2019-05-30-10-25 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-05-30-10-25 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-05-30-10-25 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 206ms. Found 2 repository interfaces.
+  2019-05-30-10-25 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3080aaa2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-05-30-10-25 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-05-30-10-25 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3623 ms
+  2019-05-30-10-25 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+  2019-05-30-10-25 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+  2019-05-30-10-25 [main] [org.hibernate.jpa.internal.util.LogHelper] [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2019-05-30-10-25 [main] [org.hibernate.Version] [INFO] - HHH000412: Hibernate Core {5.3.7.Final}
+  2019-05-30-10-25 [main] [org.hibernate.cfg.Environment] [INFO] - HHH000206: hibernate.properties not found
+  2019-05-30-10-25 [main] [org.hibernate.annotations.common.Version] [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+  2019-05-30-10-25 [main] [org.hibernate.dialect.Dialect] [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2019-05-30-10-25 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-10-25 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2019-05-30-10-25 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2019-05-30-10-25 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8081 (http) with context path ''
+  2019-05-30-10-25 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 8.319 seconds (JVM running for 10.539)
+  2019-05-30-10-25 [http-nio-8081-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2019-05-30-10-25 [http-nio-8081-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 11 ms
+  2019-05-30-10-50 [Thread-13] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Shutting down ExecutorService 'applicationTaskExecutor'
+  2019-05-30-10-50 [Thread-13] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-10-50 [Thread-13] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown initiated...
+  2019-05-30-10-50 [Thread-13] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown completed.
+  2019-05-30-10-51 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2019-05-30-10-51 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-5S6RJ4F3 with PID 4172 (started by liuji in E:\深度学习\dlrobot)
+  2019-05-30-10-51 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-05-30-10-51 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-05-30-10-51 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 132ms. Found 2 repository interfaces.
+  2019-05-30-10-51 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58c094] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-05-30-10-51 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-05-30-10-51 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3541 ms
+  2019-05-30-10-51 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+  2019-05-30-10-51 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+  2019-05-30-10-51 [main] [org.hibernate.jpa.internal.util.LogHelper] [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2019-05-30-10-51 [main] [org.hibernate.Version] [INFO] - HHH000412: Hibernate Core {5.3.7.Final}
+  2019-05-30-10-51 [main] [org.hibernate.cfg.Environment] [INFO] - HHH000206: hibernate.properties not found
+  2019-05-30-10-51 [main] [org.hibernate.annotations.common.Version] [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+  2019-05-30-10-51 [main] [org.hibernate.dialect.Dialect] [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2019-05-30-10-51 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-10-51 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2019-05-30-10-51 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2019-05-30-10-51 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8081 (http) with context path ''
+  2019-05-30-10-51 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 8.964 seconds (JVM running for 11.386)
+  2019-05-30-10-51 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2019-05-30-10-51 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 11 ms
+  2019-05-30-10-53 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2019-05-30-10-53 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-5S6RJ4F3 with PID 19516 (E:\dlrobot\target\classes started by liuji in E:\dlrobot)
+  2019-05-30-10-53 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-05-30-10-54 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-05-30-10-54 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 135ms. Found 2 repository interfaces.
+  2019-05-30-10-54 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8584accd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-05-30-10-54 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-05-30-10-54 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 5911 ms
+  2019-05-30-10-54 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+  2019-05-30-10-54 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+  2019-05-30-10-54 [main] [org.hibernate.jpa.internal.util.LogHelper] [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2019-05-30-10-54 [main] [org.hibernate.Version] [INFO] - HHH000412: Hibernate Core {5.3.7.Final}
+  2019-05-30-10-54 [main] [org.hibernate.cfg.Environment] [INFO] - HHH000206: hibernate.properties not found
+  2019-05-30-10-54 [main] [org.hibernate.annotations.common.Version] [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+  2019-05-30-10-54 [main] [org.hibernate.dialect.Dialect] [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2019-05-30-10-54 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-10-54 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2019-05-30-10-54 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2019-05-30-10-54 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8081 (http) with context path ''
+  2019-05-30-10-54 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 16.677 seconds (JVM running for 19.026)
+  2019-05-30-10-54 [http-nio-8081-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2019-05-30-10-54 [http-nio-8081-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 17 ms
+  2019-05-30-10-57 [http-nio-8081-exec-3] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-10-59 [http-nio-8081-exec-5] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-00 [http-nio-8081-exec-8] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-01 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] [WARN] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s785ms446µs).
+  2019-05-30-11-02 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] [WARN] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s723ms167µs700ns).
+  2019-05-30-11-07 [http-nio-8081-exec-6] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-07 [http-nio-8081-exec-6] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] [INFO] - HHH000397: Using ASTQueryTranslatorFactory
+  2019-05-30-11-08 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] [WARN] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s552ms13µs100ns).
+  2019-05-30-11-08 [http-nio-8081-exec-3] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-09 [http-nio-8081-exec-3] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-11 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] [WARN] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m37s37ms560µs200ns).
+  2019-05-30-11-11 [http-nio-8081-exec-7] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-11 [http-nio-8081-exec-7] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-14 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] [WARN] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m46s500ms47µs800ns).
+  2019-05-30-11-15 [http-nio-8081-exec-1] [com.baidu.aip.client.BaseClient] [WARN] - oauth get error, current state: STATE_TRUE_CLOUD_USER
+  2019-05-30-11-15 [http-nio-8081-exec-5] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-17 [http-nio-8081-exec-7] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-17 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] [WARN] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s441ms228µs600ns).
+  2019-05-30-11-19 [Thread-30] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Shutting down ExecutorService 'applicationTaskExecutor'
+  2019-05-30-11-19 [Thread-30] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-11-19 [Thread-30] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown initiated...
+  2019-05-30-11-19 [Thread-30] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown completed.
+  2019-05-30-11-20 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2019-05-30-11-20 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-5S6RJ4F3 with PID 8724 (E:\dlrobot\target\classes started by liuji in E:\dlrobot)
+  2019-05-30-11-20 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-05-30-11-20 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-05-30-11-20 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 104ms. Found 2 repository interfaces.
+  2019-05-30-11-20 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef38184a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-05-30-11-20 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-05-30-11-20 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3214 ms
+  2019-05-30-11-20 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+  2019-05-30-11-20 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+  2019-05-30-11-20 [main] [org.hibernate.jpa.internal.util.LogHelper] [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2019-05-30-11-20 [main] [org.hibernate.Version] [INFO] - HHH000412: Hibernate Core {5.3.7.Final}
+  2019-05-30-11-20 [main] [org.hibernate.cfg.Environment] [INFO] - HHH000206: hibernate.properties not found
+  2019-05-30-11-20 [main] [org.hibernate.annotations.common.Version] [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+  2019-05-30-11-20 [main] [org.hibernate.dialect.Dialect] [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2019-05-30-11-20 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-11-20 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2019-05-30-11-20 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2019-05-30-11-20 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8081 (http) with context path ''
+  2019-05-30-11-20 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 9.579 seconds (JVM running for 12.001)
+  2019-05-30-11-20 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2019-05-30-11-20 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 17 ms
+  2019-05-30-11-21 [http-nio-8081-exec-8] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] [INFO] - HHH000397: Using ASTQueryTranslatorFactory
+  2019-05-30-11-22 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2019-05-30-11-22 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-5S6RJ4F3 with PID 3268 (E:\dlrobot\target\classes started by liuji in E:\dlrobot)
+  2019-05-30-11-22 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-05-30-11-22 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-05-30-11-22 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 116ms. Found 2 repository interfaces.
+  2019-05-30-11-22 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd37226b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-05-30-11-22 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-05-30-11-22 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3654 ms
+  2019-05-30-11-22 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+  2019-05-30-11-22 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+  2019-05-30-11-22 [main] [org.hibernate.jpa.internal.util.LogHelper] [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2019-05-30-11-22 [main] [org.hibernate.Version] [INFO] - HHH000412: Hibernate Core {5.3.7.Final}
+  2019-05-30-11-22 [main] [org.hibernate.cfg.Environment] [INFO] - HHH000206: hibernate.properties not found
+  2019-05-30-11-22 [main] [org.hibernate.annotations.common.Version] [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+  2019-05-30-11-22 [main] [org.hibernate.dialect.Dialect] [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2019-05-30-11-22 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-11-22 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2019-05-30-11-22 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2019-05-30-11-22 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8081 (http) with context path ''
+  2019-05-30-11-22 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 9.313 seconds (JVM running for 11.844)
+  2019-05-30-11-22 [http-nio-8081-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2019-05-30-11-22 [http-nio-8081-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 44 ms
+  2019-05-30-11-24 [Thread-15] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Shutting down ExecutorService 'applicationTaskExecutor'
+  2019-05-30-11-24 [Thread-15] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-11-24 [Thread-15] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown initiated...
+  2019-05-30-11-24 [Thread-15] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown completed.
+  2019-05-30-11-24 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2019-05-30-11-24 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-5S6RJ4F3 with PID 12236 (E:\dlrobot\target\classes started by liuji in E:\dlrobot)
+  2019-05-30-11-24 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-05-30-11-24 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-05-30-11-24 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 197ms. Found 2 repository interfaces.
+  2019-05-30-11-24 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80244be5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-05-30-11-24 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-05-30-11-24 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3078 ms
+  2019-05-30-11-24 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+  2019-05-30-11-24 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+  2019-05-30-11-24 [main] [org.hibernate.jpa.internal.util.LogHelper] [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2019-05-30-11-24 [main] [org.hibernate.Version] [INFO] - HHH000412: Hibernate Core {5.3.7.Final}
+  2019-05-30-11-24 [main] [org.hibernate.cfg.Environment] [INFO] - HHH000206: hibernate.properties not found
+  2019-05-30-11-24 [main] [org.hibernate.annotations.common.Version] [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+  2019-05-30-11-24 [main] [org.hibernate.dialect.Dialect] [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2019-05-30-11-24 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-11-24 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2019-05-30-11-24 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2019-05-30-11-24 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8081 (http) with context path ''
+  2019-05-30-11-24 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 11.643 seconds (JVM running for 13.733)
+  2019-05-30-11-24 [http-nio-8081-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2019-05-30-11-24 [http-nio-8081-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 18 ms
+  2019-05-30-11-25 [http-nio-8081-exec-5] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-26 [Thread-20] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Shutting down ExecutorService 'applicationTaskExecutor'
+  2019-05-30-11-26 [Thread-20] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-11-26 [Thread-20] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown initiated...
+  2019-05-30-11-26 [Thread-20] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown completed.
+  2019-05-30-11-26 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2019-05-30-11-26 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-5S6RJ4F3 with PID 9524 (E:\dlrobot\target\classes started by liuji in E:\dlrobot)
+  2019-05-30-11-26 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-05-30-11-26 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-05-30-11-26 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 324ms. Found 2 repository interfaces.
+  2019-05-30-11-26 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9fcdb7ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-05-30-11-26 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-05-30-11-26 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3151 ms
+  2019-05-30-11-26 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+  2019-05-30-11-26 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+  2019-05-30-11-26 [main] [org.hibernate.jpa.internal.util.LogHelper] [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2019-05-30-11-26 [main] [org.hibernate.Version] [INFO] - HHH000412: Hibernate Core {5.3.7.Final}
+  2019-05-30-11-26 [main] [org.hibernate.cfg.Environment] [INFO] - HHH000206: hibernate.properties not found
+  2019-05-30-11-26 [main] [org.hibernate.annotations.common.Version] [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+  2019-05-30-11-26 [main] [org.hibernate.dialect.Dialect] [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2019-05-30-11-26 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-11-26 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2019-05-30-11-26 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2019-05-30-11-26 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8081 (http) with context path ''
+  2019-05-30-11-26 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 7.508 seconds (JVM running for 9.711)
+  2019-05-30-11-27 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2019-05-30-11-27 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 9 ms
+  2019-05-30-11-27 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2019-05-30-11-28 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-5S6RJ4F3 with PID 13452 (E:\dlrobot\target\classes started by liuji in E:\dlrobot)
+  2019-05-30-11-28 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-05-30-11-28 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-05-30-11-28 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 121ms. Found 2 repository interfaces.
+  2019-05-30-11-28 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39e13241] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-05-30-11-28 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-05-30-11-28 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3670 ms
+  2019-05-30-11-28 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+  2019-05-30-11-28 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+  2019-05-30-11-28 [main] [org.hibernate.jpa.internal.util.LogHelper] [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2019-05-30-11-28 [main] [org.hibernate.Version] [INFO] - HHH000412: Hibernate Core {5.3.7.Final}
+  2019-05-30-11-28 [main] [org.hibernate.cfg.Environment] [INFO] - HHH000206: hibernate.properties not found
+  2019-05-30-11-28 [main] [org.hibernate.annotations.common.Version] [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+  2019-05-30-11-28 [main] [org.hibernate.dialect.Dialect] [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2019-05-30-11-28 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-11-28 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2019-05-30-11-28 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2019-05-30-11-28 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8081 (http) with context path ''
+  2019-05-30-11-28 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 12.226 seconds (JVM running for 14.346)
+  2019-05-30-11-28 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2019-05-30-11-28 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 12 ms
+  2019-05-30-11-29 [http-nio-8081-exec-2] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-29 [http-nio-8081-exec-6] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-29 [http-nio-8081-exec-8] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-29 [http-nio-8081-exec-10] [com.baidu.aip.client.BaseClient] [WARN] - oauth get error, current state: STATE_TRUE_CLOUD_USER
+  2019-05-30-11-29 [http-nio-8081-exec-3] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-30 [Thread-20] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Shutting down ExecutorService 'applicationTaskExecutor'
+  2019-05-30-11-30 [Thread-20] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-11-30 [Thread-20] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown initiated...
+  2019-05-30-11-30 [Thread-20] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown completed.
+  2019-05-30-11-30 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2019-05-30-11-30 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-5S6RJ4F3 with PID 12428 (E:\dlrobot\target\classes started by liuji in E:\dlrobot)
+  2019-05-30-11-30 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-05-30-11-30 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-05-30-11-30 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 120ms. Found 2 repository interfaces.
+  2019-05-30-11-30 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e0e76375] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-05-30-11-30 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-05-30-11-30 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3225 ms
+  2019-05-30-11-30 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+  2019-05-30-11-30 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+  2019-05-30-11-30 [main] [org.hibernate.jpa.internal.util.LogHelper] [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2019-05-30-11-30 [main] [org.hibernate.Version] [INFO] - HHH000412: Hibernate Core {5.3.7.Final}
+  2019-05-30-11-30 [main] [org.hibernate.cfg.Environment] [INFO] - HHH000206: hibernate.properties not found
+  2019-05-30-11-30 [main] [org.hibernate.annotations.common.Version] [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+  2019-05-30-11-30 [main] [org.hibernate.dialect.Dialect] [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2019-05-30-11-30 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-11-30 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2019-05-30-11-30 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2019-05-30-11-30 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8081 (http) with context path ''
+  2019-05-30-11-30 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 9.106 seconds (JVM running for 11.272)
+  2019-05-30-11-30 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2019-05-30-11-30 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 16 ms
+  2019-05-30-11-30 [http-nio-8081-exec-4] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] [INFO] - HHH000397: Using ASTQueryTranslatorFactory
+  2019-05-30-11-30 [http-nio-8081-exec-4] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-30 [http-nio-8081-exec-10] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-31 [http-nio-8081-exec-3] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-31 [http-nio-8081-exec-4] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-32 [http-nio-8081-exec-10] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-32 [http-nio-8081-exec-2] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-34 [http-nio-8081-exec-10] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-34 [http-nio-8081-exec-9] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-38 [http-nio-8081-exec-8] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2019-05-30-11-44 [Thread-17] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Shutting down ExecutorService 'applicationTaskExecutor'
+  2019-05-30-11-44 [Thread-17] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-11-44 [Thread-17] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown initiated...
+  2019-05-30-11-44 [Thread-17] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown completed.
+  2019-05-30-11-45 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2019-05-30-11-45 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-5S6RJ4F3 with PID 20084 (E:\dlrobot\target\classes started by liuji in E:\dlrobot)
+  2019-05-30-11-45 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2019-05-30-11-45 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Bootstrapping Spring Data repositories in DEFAULT mode.
+  2019-05-30-11-45 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO] - Finished Spring Data repository scanning in 229ms. Found 2 repository interfaces.
+  2019-05-30-11-45 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c44a6ecf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2019-05-30-11-45 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8081 (http)
+  2019-05-30-11-45 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 4191 ms
+  2019-05-30-11-45 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+  2019-05-30-11-45 [main] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+  2019-05-30-11-45 [main] [org.hibernate.jpa.internal.util.LogHelper] [INFO] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+  2019-05-30-11-45 [main] [org.hibernate.Version] [INFO] - HHH000412: Hibernate Core {5.3.7.Final}
+  2019-05-30-11-45 [main] [org.hibernate.cfg.Environment] [INFO] - HHH000206: hibernate.properties not found
+  2019-05-30-11-45 [main] [org.hibernate.annotations.common.Version] [INFO] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+  2019-05-30-11-45 [main] [org.hibernate.dialect.Dialect] [INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  2019-05-30-11-45 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-11-45 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2019-05-30-11-45 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2019-05-30-11-45 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8081 (http) with context path ''
+  2019-05-30-11-45 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 9.767 seconds (JVM running for 12.608)
+  2019-05-30-11-45 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2019-05-30-11-45 [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 14 ms
+  2019-05-30-13-11 [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] [WARN] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m59s116ms904µs700ns).
+  2019-05-30-17-36 [Thread-13] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Shutting down ExecutorService 'applicationTaskExecutor'
+  2019-05-30-17-36 [Thread-13] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+  2019-05-30-17-36 [Thread-13] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown initiated...
+  2019-05-30-17-36 [Thread-13] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Shutdown completed.
+  

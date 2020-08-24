@@ -1,0 +1,301 @@
+/*
+* @Author: HP
+* @Date:   2017-12-12 10:23:06
+* @Last Modified by:   70586
+* @Last Modified time: 2018-12-21 14:16:40
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "Microsoft YaHei" ! important;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+
+.clear{
+	clear: both;
+}
+body{
+	width: 1600px;
+	height: 900px;
+
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+　　color:#28aed4;
+}
+
+.jrsy-box{
+	width: 1500px;
+	height: 875px;
+	padding: 25px 50px 0 50px;
+	margin: 0 auto;
+	/* background-color: #28bdc3; */
+	background-image: url('../img/bj2.png');
+	position: relative;
+	z-index: 20;
+}
+.container{
+	position: absolute;
+	top:-500px;
+	left:0;
+	z-index: 10;
+}
+.jrsy-box .welcome{
+	margin-top: 22px;
+}
+.jrsy-box .jrsy-top{
+	width: 100%;
+	height: 128px;
+	border-bottom: 2px solid #ffffff;
+}
+.jrsy-box .jrsy-top .son{
+	width: 306px;
+	height: 102px;
+	background-image: url('../img/yysy_03.png');
+	float: left;
+}
+.jrsy-box .jrsy-top .con{
+	width: 192px;
+	height: 76px;
+	margin-top: 15px;
+	background-image: url('../img/yysy_06.png');
+	float: right;
+}
+.jrsy-box .jrsy-bottom{
+	width: 1500px;
+	text-align: center;
+}
+.jrsy-box .jrsy-bottom .jrsy-bottom-son{
+	margin-top: 78px;
+	margin-bottom: 22px;
+}
+.jrsy-box .jrsy-bottom .jrsy-bottom-nr{
+	width: 1500px;
+	/* padding: 0 200px 0 90px; */
+	margin-top: 33px;
+}
+.jrsy-box .jrsy-bottom .nr-left{
+	width: 230px;
+	height: 483px;
+	background-image: url('../img/kf_03.png');
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+.jrsy-box .jrsy-bottom .nr-right{
+	width: 1500px;
+	height: 740px;
+	padding:20px 30px;
+/* 	background-color: #f5f5f5; */
+	/* float: right; */
+/* 	border-radius: 20px; */
+	position: relative;
+/* 	margin-right: 35px; */
+	background-image: url('../img/bj3.png');
+	background-repeat: no-repeat;
+    background-position: center;
+	top: 43px;
+	left: -35px;
+}
+/* .jrsy-box .jrsy-bottom .nr-right:before{
+	content: '';
+    width: 0;
+    height: 0;
+    border: 30px solid transparent;
+    border-right-color: #f5f5f5;
+    position: absolute;
+    top: 30%;
+    left: -60px;
+} */
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son{
+	width: 1500px;
+	height: 616px;
+	overflow-x: hidden;
+	overflow-y:auto;
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son .nr-right-son-box{
+	width:1530px;
+	height: 610px;
+	overflow: auto;
+	margin-top: 4px;
+	margin-left: 10px;
+
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son .content{
+	width: 730px;
+	/*height: 360px;*/
+	padding: 10px;
+	margin: 10px 0;
+
+	border-radius: 20px 20px 6px 20px;
+
+	/* background: #fff; */
+	
+}
+/* .jrsy-box .jrsy-bottom .nr-right .nr-right-son .content p{
+	border-bottom: 1px solid #e5e5e5;
+} */
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son .content .last{
+	border-bottom: none;
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son .content .content-box{
+	width: 100%;
+	/*height: 430px;*/
+	overflow: hidden;
+	
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son .content .content-box .content-boxbd{
+	width: 700px;
+	overflow-x:hidden;
+	overflow-y:auto; 
+	padding: 40px 20px;
+	background-image: url('../img/bj4.png');
+	background-repeat: no-repeat;
+    background-position: left;
+    background-size: 730px 100%;
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son .question-box{
+	position: relative;
+	height: 80px;
+	margin: 10px 0;
+	border-radius: 20px;
+}
+
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son .question{
+	width: auto;
+	height: 70px;
+	line-height: 70px;
+	background: #3580c9;
+	color: #fff;
+	font-size: 22px;
+	border-radius: 20px 20px 6px 20px;
+	position: absolute;
+	right: 50px;
+	text-align: center;
+	padding: 0 25px;
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son .answer-box{
+	width:600px;
+	height: auto;
+	white-space: normal;
+	padding: 10px;
+	margin-top:10px;
+	border-radius: 20px 20px 0px 0px;
+	background: #fff;
+	color: #333;
+	font-size: 22px;
+	text-align: left;
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son .again{
+	text-align: right;
+	width: 600px;
+	height: 30px;
+	padding: 10px;
+	margin-bottom:20px;
+	background: #fff;
+	border-radius: 0px 0px 20px 20px;
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son p{
+	text-align: left;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	font-size: 22px;
+	color: #ffffff;
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son p .center{
+	color: #ffffff;
+	font-size: 22px;
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-son p .select{
+	margin-left: 22px;
+	color: #ffffff;
+	font-size: 22px;
+}
+.jrsy-box .jrsy-bottom .nr-right .center-p{
+	text-align: left;
+	font-size: 22px;
+	padding: 0px 46px 0px 10px;
+	color: #ffffff;
+	line-height:36px;
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-con{
+	width: 100%;
+	height: 80px;
+	margin-top: 30px;
+	position: relative;
+	margin-left: 22px;
+
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-con .con-input{
+	width: 1222px;
+	height: 80px;
+	padding-left: 20px;
+	border: 1px solid #3580c9;
+	border-right: none;
+	float: left;
+	border-radius: 6px 0 0 6px;
+	font-size: 26px;
+	line-height: 80px;
+	color: #3580c9;
+	outline: none; 
+
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-con .yy{
+	width: 82px;
+	height: 80px;
+	background-color: #3580c9;
+	border-radius: 0 6px 6px 0;
+	float: left;
+	line-height: 104px;
+	cursor: pointer;
+	position: relative;
+	border: none;
+	outline: none;
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-con .dt{
+	position: absolute;
+	left: -90px;
+	top: 17px;
+}
+.jrsy-box .jrsy-bottom .nr-right .nr-right-con .fs{
+	width: 114px;
+	height: 80px;
+	font-size: 36px;
+	text-align: center;
+	line-height: 80px;
+	background-color: #3580c9;
+	float: right;
+	color: #ffffff;
+	border-radius: 6px;
+	outline: none;
+	border: none;
+	margin-right: 43px;
+
+}
+
+.fhsy{
+	/* margin-top: 265px;
+	margin-left: -55px; */
+	z-index: 30;
+	position: absolute;
+	top: 20px;
+	right: 84px;
+}
+
+.level{
+	height: 2px;
+	width: auto;
+	background: linear-gradient(to right, #1ec48b 0%, #2acac9 100%);
+	position: absolute;
+	top: 0;
+	right: 208px;
+	border-radius: 6px 0 0 6px;
+}
+.xiao{
+	width:120px;
+}

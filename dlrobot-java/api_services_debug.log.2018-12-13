@@ -1,0 +1,143 @@
+2018-12-13-14-29 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-14-48 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-15-22 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-15-22 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-NLHC2SIQ with PID 8104 (E:\newprojects\dlrobot\target\classes started by Fantasy in E:\newprojects\dlrobot)
+  2018-12-13-15-22 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-13-15-22 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-13-15-22 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3111 ms
+  2018-12-13-15-22 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-13-15-22 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-13-15-22 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 5.477 seconds (JVM running for 9.3)
+  2018-12-13-15-23 [http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-13-15-23 [http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 11 ms
+  2018-12-13-15-25 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-15-25 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-NLHC2SIQ with PID 16688 (E:\newprojects\dlrobot\target\classes started by Fantasy in E:\newprojects\dlrobot)
+  2018-12-13-15-25 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-13-15-25 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-13-15-25 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 4846 ms
+  2018-12-13-15-25 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-13-15-25 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-13-15-25 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 7.108 seconds (JVM running for 10.233)
+  2018-12-13-15-25 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-13-15-25 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 12 ms
+  2018-12-13-15-27 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-15-27 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-NLHC2SIQ with PID 9320 (E:\newprojects\dlrobot\target\classes started by Fantasy in E:\newprojects\dlrobot)
+  2018-12-13-15-27 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-13-15-27 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-13-15-27 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 5024 ms
+  2018-12-13-15-27 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-13-15-27 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-13-15-27 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 7.191 seconds (JVM running for 12.861)
+  2018-12-13-15-28 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-13-15-28 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 9 ms
+  2018-12-13-15-28 [http-nio-8080-exec-1] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-15-28 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-15-28 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-NLHC2SIQ with PID 15420 (E:\newprojects\dlrobot\target\classes started by Fantasy in E:\newprojects\dlrobot)
+  2018-12-13-15-28 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-13-15-28 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-13-15-28 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 4272 ms
+  2018-12-13-15-28 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-13-15-29 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-13-15-29 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 6.276 seconds (JVM running for 9.072)
+  2018-12-13-15-29 [http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-13-15-29 [http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 11 ms
+  2018-12-13-15-39 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-15-39 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-NLHC2SIQ with PID 18064 (E:\newprojects\dlrobot\target\classes started by Fantasy in E:\newprojects\dlrobot)
+  2018-12-13-15-39 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-13-15-39 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-13-15-39 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3437 ms
+  2018-12-13-15-39 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-13-15-39 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-13-15-39 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 5.674 seconds (JVM running for 8.566)
+  2018-12-13-15-40 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-13-15-40 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 9 ms
+  2018-12-13-15-40 [http-nio-8080-exec-2] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-15-40 [http-nio-8080-exec-10] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-15-41 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-15-41 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-NLHC2SIQ with PID 11712 (E:\newprojects\dlrobot\target\classes started by Fantasy in E:\newprojects\dlrobot)
+  2018-12-13-15-41 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-13-15-41 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-13-15-41 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3501 ms
+  2018-12-13-15-41 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-13-15-41 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-13-15-41 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 5.631 seconds (JVM running for 8.164)
+  2018-12-13-15-42 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-13-15-42 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 7 ms
+  2018-12-13-15-42 [http-nio-8080-exec-1] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-15-42 [http-nio-8080-exec-2] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-15-42 [http-nio-8080-exec-4] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-15-43 [http-nio-8080-exec-5] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-15-43 [http-nio-8080-exec-3] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-15-43 [http-nio-8080-exec-6] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-15-48 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-15-49 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-NLHC2SIQ with PID 596 (E:\newprojects\dlrobot\target\classes started by Fantasy in E:\newprojects\dlrobot)
+  2018-12-13-15-49 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-13-15-49 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-13-15-49 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 4021 ms
+  2018-12-13-15-49 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-13-15-49 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-13-15-49 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 5.967 seconds (JVM running for 9.933)
+  2018-12-13-15-49 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-13-15-49 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 18 ms
+  2018-12-13-15-49 [http-nio-8080-exec-5] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-15-49 [http-nio-8080-exec-3] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-15-53 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-15-53 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-NLHC2SIQ with PID 12196 (E:\newprojects\dlrobot\target\classes started by Fantasy in E:\newprojects\dlrobot)
+  2018-12-13-15-53 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-13-15-54 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-13-15-54 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3815 ms
+  2018-12-13-15-54 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-13-15-54 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-13-15-54 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 6.394 seconds (JVM running for 9.296)
+  2018-12-13-15-54 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-13-15-54 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 10 ms
+  2018-12-13-16-03 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-16-03 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-NLHC2SIQ with PID 20816 (E:\newprojects\dlrobot\target\classes started by Fantasy in E:\newprojects\dlrobot)
+  2018-12-13-16-03 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-13-16-03 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-13-16-03 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 4571 ms
+  2018-12-13-16-03 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-13-16-03 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-13-16-03 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 7.412 seconds (JVM running for 10.321)
+  2018-12-13-16-03 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-13-16-03 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 12 ms
+  2018-12-13-16-04 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-16-04 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-NLHC2SIQ with PID 11752 (E:\newprojects\dlrobot\target\classes started by Fantasy in E:\newprojects\dlrobot)
+  2018-12-13-16-04 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-13-16-04 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-13-16-04 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 2993 ms
+  2018-12-13-16-04 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-13-16-04 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-13-16-04 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 5.339 seconds (JVM running for 10.312)
+  2018-12-13-16-04 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-13-16-04 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 11 ms
+  2018-12-13-16-05 [http-nio-8080-exec-1] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-16-05 [http-nio-8080-exec-2] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-16-06 [http-nio-8080-exec-4] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-16-06 [http-nio-8080-exec-7] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-16-06 [http-nio-8080-exec-8] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-16-07 [http-nio-8080-exec-9] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-16-08 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-16-08 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-NLHC2SIQ with PID 20656 (E:\newprojects\dlrobot\target\classes started by Fantasy in E:\newprojects\dlrobot)
+  2018-12-13-16-08 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-13-16-08 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-13-16-08 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 3608 ms
+  2018-12-13-16-08 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-13-16-08 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-13-16-08 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 5.525 seconds (JVM running for 8.228)
+  2018-12-13-16-08 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-13-16-08 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 9 ms
+  2018-12-13-16-09 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-13-16-09 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on LAPTOP-NLHC2SIQ with PID 18628 (E:\newprojects\dlrobot\target\classes started by Fantasy in E:\newprojects\dlrobot)
+  2018-12-13-16-09 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-13-16-09 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-13-16-09 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 2997 ms
+  2018-12-13-16-09 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-13-16-09 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-13-16-09 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 5.307 seconds (JVM running for 9.931)
+  2018-12-13-16-09 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-13-16-09 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 11 ms
+  2018-12-13-16-11 [http-nio-8080-exec-3] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-16-11 [http-nio-8080-exec-9] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  2018-12-13-16-12 [http-nio-8080-exec-4] [com.baidu.aip.client.BaseClient] [INFO] - get access_token success. current state: STATE_AIP_AUTH_OK
+  

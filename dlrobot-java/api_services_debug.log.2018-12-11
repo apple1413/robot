@@ -1,0 +1,118 @@
+2018-12-11-16-40 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-11-16-40 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on fengxy-PC10 with PID 37104 (F:\dev\dlrobot\target\classes started by 13834 in F:\dev\dlrobot)
+  2018-12-11-16-40 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-11-16-40 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-11-16-40 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1408 ms
+  2018-12-11-16-40 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-11-16-40 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-11-16-40 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 2.413 seconds (JVM running for 4.706)
+  2018-12-11-16-40 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-11-16-40 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 8 ms
+  2018-12-11-16-44 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-11-16-44 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on fengxy-PC10 with PID 11424 (F:\dev\dlrobot\target\classes started by 13834 in F:\dev\dlrobot)
+  2018-12-11-16-44 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-11-16-45 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-11-16-45 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1093 ms
+  2018-12-11-16-45 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-11-16-45 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-11-16-45 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 2.063 seconds (JVM running for 3.664)
+  2018-12-11-16-46 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-11-16-46 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on fengxy-PC10 with PID 22624 (F:\dev\dlrobot\target\classes started by 13834 in F:\dev\dlrobot)
+  2018-12-11-16-46 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-11-16-46 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-11-16-46 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1220 ms
+  2018-12-11-16-46 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-11-16-46 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-11-16-46 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 2.125 seconds (JVM running for 3.533)
+  2018-12-11-16-48 [http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-11-16-48 [http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 5 ms
+  2018-12-11-16-52 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-11-16-52 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on fengxy-PC10 with PID 13240 (F:\dev\dlrobot\target\classes started by 13834 in F:\dev\dlrobot)
+  2018-12-11-16-52 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-11-16-52 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-11-16-52 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1094 ms
+  2018-12-11-16-52 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-11-16-52 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-11-16-52 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 2.014 seconds (JVM running for 3.378)
+  2018-12-11-16-52 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-11-16-52 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 5 ms
+  2018-12-11-16-52 [http-nio-8080-exec-3] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [WARN] - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'type' is not present]
+  2018-12-11-16-53 [http-nio-8080-exec-7] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [WARN] - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'type' is not present]
+  2018-12-11-17-00 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-11-17-00 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on fengxy-PC10 with PID 32228 (F:\dev\dlrobot\target\classes started by 13834 in F:\dev\dlrobot)
+  2018-12-11-17-00 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-11-17-00 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-11-17-00 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1101 ms
+  2018-12-11-17-00 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-11-17-00 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-11-17-00 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 1.992 seconds (JVM running for 3.41)
+  2018-12-11-17-00 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-11-17-00 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 6 ms
+  2018-12-11-17-00 [http-nio-8080-exec-3] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [WARN] - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+  2018-12-11-17-03 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-11-17-03 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on fengxy-PC10 with PID 14656 (F:\dev\dlrobot\target\classes started by 13834 in F:\dev\dlrobot)
+  2018-12-11-17-03 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-11-17-03 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-11-17-03 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1114 ms
+  2018-12-11-17-03 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-11-17-03 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-11-17-03 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 2.046 seconds (JVM running for 3.37)
+  2018-12-11-17-03 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-11-17-03 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 6 ms
+  2018-12-11-17-03 [http-nio-8080-exec-2] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [WARN] - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'question': was expecting ('true', 'false' or 'null'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'question': was expecting ('true', 'false' or 'null')
+ at [Source: (PushbackInputStream); line: 1, column: 10]]
+  2018-12-11-17-07 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-11-17-07 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on fengxy-PC10 with PID 1288 (F:\dev\dlrobot\target\classes started by 13834 in F:\dev\dlrobot)
+  2018-12-11-17-07 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-11-17-08 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-11-17-08 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1099 ms
+  2018-12-11-17-08 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-11-17-08 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-11-17-08 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 2.044 seconds (JVM running for 3.457)
+  2018-12-11-17-08 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-11-17-08 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 6 ms
+  2018-12-11-17-08 [http-nio-8080-exec-3] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [WARN] - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'type': was expecting 'null', 'true', 'false' or NaN; nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'type': was expecting 'null', 'true', 'false' or NaN
+ at [Source: (PushbackInputStream); line: 1, column: 6]]
+  2018-12-11-17-12 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-11-17-12 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on fengxy-PC10 with PID 9468 (F:\dev\dlrobot\target\classes started by 13834 in F:\dev\dlrobot)
+  2018-12-11-17-12 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-11-17-12 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-11-17-12 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1131 ms
+  2018-12-11-17-12 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-11-17-12 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-11-17-12 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 2.097 seconds (JVM running for 3.471)
+  2018-12-11-17-12 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-11-17-12 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 6 ms
+  2018-12-11-17-12 [http-nio-8080-exec-3] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [WARN] - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'type': was expecting 'null', 'true', 'false' or NaN; nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'type': was expecting 'null', 'true', 'false' or NaN
+ at [Source: (PushbackInputStream); line: 1, column: 6]]
+  2018-12-11-17-18 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-11-17-18 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on fengxy-PC10 with PID 22092 (F:\dev\dlrobot\target\classes started by 13834 in F:\dev\dlrobot)
+  2018-12-11-17-18 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-11-17-18 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-11-17-18 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1103 ms
+  2018-12-11-17-18 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-11-17-18 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-11-17-18 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 2.093 seconds (JVM running for 3.52)
+  2018-12-11-17-18 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-11-17-18 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 5 ms
+  2018-12-11-17-24 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-11-17-24 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on fengxy-PC10 with PID 9924 (F:\dev\dlrobot\target\classes started by 13834 in F:\dev\dlrobot)
+  2018-12-11-17-24 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-11-17-24 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-11-17-24 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1171 ms
+  2018-12-11-17-24 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-11-17-24 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-11-17-24 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 2.171 seconds (JVM running for 3.56)
+  2018-12-11-17-25 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-11-17-25 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 5 ms
+  2018-12-11-17-58 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.13.Final
+  2018-12-11-17-58 [main] [com.zty.robot.RobotTestApplication] [INFO] - Starting RobotTestApplication on fengxy-PC10 with PID 19076 (F:\dev\dlrobot\target\classes started by 13834 in F:\dev\dlrobot)
+  2018-12-11-17-58 [main] [com.zty.robot.RobotTestApplication] [INFO] - No active profile set, falling back to default profiles: default
+  2018-12-11-17-58 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-12-11-17-58 [main] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 1188 ms
+  2018-12-11-17-58 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [INFO] - Initializing ExecutorService 'applicationTaskExecutor'
+  2018-12-11-17-58 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+  2018-12-11-17-58 [main] [com.zty.robot.RobotTestApplication] [INFO] - Started RobotTestApplication in 2.111 seconds (JVM running for 3.471)
+  2018-12-11-17-58 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Initializing Servlet 'dispatcherServlet'
+  2018-12-11-17-58 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - Completed initialization in 5 ms
+  

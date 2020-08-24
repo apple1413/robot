@@ -1,0 +1,458 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		img{
+			border: 0;
+		}
+		a{
+			border: 0;
+		}
+	</style>
+	<!--<meta http-equiv="refresh" content="1">-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>智能客服系统</title>
+	<link rel="stylesheet" href="css/jrsy.css">
+	<link rel="stylesheet" href="css/tck.css">
+	<script src="js/jquery-1.11.1-min.js"></script>
+	<script src="js/jrsy.js"></script>
+
+	<!-- for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<!-- for search-->
+	<meta name="keywords" content="uikoo9.com"/>
+	<meta name="description" content="uikoo9.com"/>
+	<meta name="author" contect="qiaowenbin"/>
+	<meta name="robots" contect="all"/>
+
+	<!-- title -->
+	<title>uikoo9.com</title>
+
+	<!-- favicon.ico -->
+	<link href="favicon.ico" type="image/x-icon" rel="bookmark"/>
+	<link href="favicon.ico" type="image/x-icon" rel="icon"/>
+	<link href="favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+	<!-- base -->
+	<script type="text/javascript">var base = '${base}';</script>
+	<!-- bootstrap -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<script type="text/javascript" src="WUI/qrecord/js/bootstrap.min.js"></script>
+	<!--[if lt IE 9]>
+    <script src="WUI/qrecord/js/html5shiv.min.js"></script>
+    <script src="WUI/qrecord/js/respond.min.js"></script>
+    <![endif]-->
+	<script type="text/javascript" src="WUI/qrecord/js/swfobject.js"></script>
+	<script type="text/javascript" src="WUI/qrecord/js/recorder.js"></script>
+	<script type="text/javascript" src="WUI/qrecord/js/main.js"></script>
+
+</head>
+<body>
+
+	<div class="jrsy-box" id="jump">
+
+		<!-- <div class="jrsy-top">
+			<div class="son"></div>
+			<img src="img/kefu_03.png" alt="" width="400" style="margin-top: 25px;margin-left: 226px;">
+			<div class="con"></div>
+		</div> -->
+		<div class="jrsy-bottom">
+			<!-- <div class="welcome">
+				<img src="img/kefu_03.png" alt="" width="500">
+			</div> -->
+			<div class="jrsy-bottom-nr">
+				<!-- <div class="nr-left"></div> -->
+				<div class="nr-right">
+					<div class="nr-right-son">
+						<div class="nr-right-son-box" id="gundong">
+							<div class="content" id="tiwen">
+								<div class="content-box">
+									<div class="content-boxbd">
+										<p class="center-p last">您好，</p>
+										<p class="center-p last">试着问问下列问题：</p>
+										<p><span class="center">1.</span><span class="select">主持制订第一部奥林匹克宪章的人是谁？</span></p>
+										<p><span class="center">2.</span><span class="select">豫是哪里车牌？</span></p>
+										<p><span class="center">3.</span><span class="select">陆地上最大的动物是什么？</span></p>
+										<p><span class="center">4.</span><span class="select">请问拿破仑在1794年被热月党人监禁了多少天？</span></p>
+										<p><span class="center">5.</span><span class="select">意大利的首都叫什么？</span></p>
+										<p><span class="center">6.</span><span class="select">电影指环王一共有几部？</span></p>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tck-box">
+							<div class="tck-top">温馨提示</div>
+							<div class="tck-bottom">
+								<p id="error">
+								</p>
+								<div class="btnn">
+									<img src="img/guanbi_03.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="nr-right-con" style="z-index: 60;">
+						<div class="level"></div>
+						<input style="outline: none;border: none;" type="text" placeholder="您可以点击右侧麦克风提问..."  class="con-input" id="question">
+						<button type="button" class="yy">
+							<img style="outline: none;border: none;" src="img/yy_03.png" alt="">
+						</button>
+						<input type="button" class="fs" id="fasong" value="发送">
+						<span id="save_button" style="display:inline-block;position: absolute;bottom:0;right:266px;z-index: 40;">
+								<object class="obj" data="WUI/qrecord/recorder.swf" name="recorderApp" id="recorderApp" type="application/x-shockwave-flash" height="24" width="24"><param value="upload_image=WUI/qrecord/images/upload.png" name="flashvars"></object>
+							</span>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="index.html" style="border: 0"><img src="img/btnn_03.png" alt="" class="fhsy" style="border: 0">1</a>
+	</div>
+</body>
+<script>
+    sidobj=document.getElementById('jump');
+    setTimeout(function(){
+        location='index.html';
+    },900000);
+    var quizyType = true;
+    var audioElementHovertree = document.createElement('audio');
+    $(function(){
+        document.onselectstart = function (e) { return false; }
+        $(".tck-box").hide();
+        //发送提交
+        $("#fasong").click(function () {
+            if($("#question").val() != "" && quizyType){
+                submit()};
+        });
+        //快速提问
+        $(".select").on("click",function () {
+            $("#question").val($(this).html());
+        })
+        //我还想问
+        $('.again').click(function(){
+            $(".nr-right-son-box").append($("#tiwen"));
+        });
+        //语音提问
+        $(".yy").click(function(){
+            if(quizyType){
+                startRecord();
+            }
+        });
+
+
+        //  var audioElementHovertree = document.createElement('audio');
+        // audioElementHovertree.setAttribute('src', '123.wav');
+        // audioElementHovertree.setAttribute('autoplay', 'autoplay'); //打开自动播放
+        //audioElement.load()
+
+        $.get();
+
+        audioElementHovertree.addEventListener("load", function() {
+            audioElementHovertree.play();
+        }, true);
+
+
+    })
+
+    //处理回复消息
+    function processMsg(data) {
+
+        console.log(data)
+        var s = data.msg;
+        var ss = new Array();
+        var index = '';
+        var uuidname= data.msg.uuidname;
+        /*	//data.msg.answerTypeId;
+            if (index == "1" || index == "2" || index == "3" || index == "10"){
+                x={
+                    "protocolId": 1502,
+                    "sendTime": 1403694605968,
+                    "answerTypeId": 1,
+                    "singleNode": {
+                        "answerMsg": "服务器忙 / 系统异常 / ...",
+                        "standardQuestion ": "",
+                        "isRichText ": 0,
+                        "cmd ": "",
+                        "list ": null,
+                        "score ": 0,
+                        "standardQuestionId ": 0
+                    },
+                    "vagueNode ": null
+                }
+            }else if (index == "4" || index == "7" || index == "12"){
+                s={
+                    "protocolId": 1502,
+                    "sendTime": 1403694605968,
+                    "answerTypeId": 4,
+                    "singleNode": {
+                        "answerMsg": "你是哪个方向的车次 ",
+                        "standardQuestion ": "",
+                        "isRichText ": 0,
+                        "cmd ": "",
+                        "list ": null,
+                        "score ": 0,
+                        "standardQuestionId ": 0
+                    },
+                    "vagueNode ": null
+                }
+            }else if(index == "5" || index == "11"){
+                s = {
+                    "answerTypeId": 5,
+                    "protocolId": 1502,
+                    "sendTime": 1424922555809,
+                    "singleNode": {
+                        "answerMsg": "",
+                        "cmd": null,
+                        "isRichText": 0,
+                        "list": null,
+                        "score": 0,
+                        "standardQuestion": null,
+                        "standardQuestionId ": 0
+                    },
+                    "vagueNode": {
+                        "endVagueMsg": "		",
+                        "itemList": [{
+                            "id": 191593566,
+                            "num": 1,
+                            "question": "信 用 卡 费 率 ",
+                            "score": 73.6720869068559,
+                            "type": 1
+                        }, {
+                            "id": 191593567,
+                            "num": 2,
+                            "question": "信用卡年费 ",
+                            "score": 59.13707877986724,
+                            "type": 1
+                        }],
+                        "promptVagueMsg": "你是否想要知道！ ",
+                        "vagueList": ["多渠道问题 ", "多渠道问题222 "]
+                    }
+                };
+            }else if(index == "8" || index == "6"){
+                s = {
+                    "protocolId": 1502,
+                    "sendTime": 1403694605968,
+                    "answerTypeId": 6,
+                    "singleNode": {
+                        "answerMsg": "图文回复",
+                        "standardQuestion": "公司计划 ",
+                        "isRichText": null,
+                        "cmd": "",
+                        "score ": 100,
+                        "standardQuestionId ": 191593566,
+                        "list": [{
+                            "itemId": 1,
+                            "title": "日报 ",
+                            "description": "完成公司下一步规划 你说呢啊哈哈哈哈哈哈哈哈哈哈",
+                            "picUrl": "www. ** * .com / pic.jpg ",
+                            "url": "www.baidu.com ",
+                            "cmd": ""
+                        }, {
+                            "itemId": 2,
+                            "title": "日报 ",
+                            "description": "成一划 ",
+                            "picUrl": "www. ** * .com / pic.jpg ",
+                            "url": "www.baidu.com ",
+                            "cmd": ""
+                        }]
+                    },
+                    "vagueNode ": null
+                }
+            }*/
+
+        var tmpStr = "<div class=\"content\">\n" +
+            "<div class=\"content-box\">\n" +
+            "<div class=\"content-boxbd\">\n";
+        if (s.answerTypeId == "1" || s.answerTypeId == "2" || s.answerTypeId == "3" || s.answerTypeId == "10"){
+            alert(s.singleNode.answerMsg);
+            $(".nr-right-son-box").append($("#tiwen"));
+        }else if (s.answerTypeId == "4" || s.answerTypeId == "7" || s.answerTypeId == "12"){
+            tmpStr += "<div class=\"center-p last\">"+s.singleNode.answerMsg+"</div>\n";
+        }else if (s.answerTypeId == "5" || s.answerTypeId == "11"){
+            ss = s.vagueNode.itemList;
+            tmpStr += "<div class=\"center-p last\">"+s.vagueNode.promptVagueMsg+"</div>\n";
+            $.each(ss,function (i,b) {
+                tmpStr += "<p><span class=\"center\">"+b.num+"</span><span class=\"select\">"+b.question+":"+b.score+"</span></p>\n";
+            })
+        }
+        //纯文本回复问题
+        else if (s.answerTypeId == "6"&&s.isRichText==null){
+            tmpStr += "<p><span class=\"select\">"+s.singleNode.standardQuestion+"</span></p>\n";
+            tmpStr += "<div class=\"center-p last\">"+s.singleNode.answerMsg+"</div>\n";
+            tmpStr +="<div  class=\"question-box\" ><p class=\"question voice\" onclick='test()'>&nbsp;&nbsp;&nbsp;&nbsp;<img style='margin-top: 20px;' src='img/bfan_03.png' </p></div>";
+
+            audioElementHovertree.setAttribute('src', ''+uuidname+'');
+            audioElementHovertree.play();
+
+        }
+
+        else if (s.answerTypeId == "8"){
+            tmpStr += "<div class=\"center-p last\">"+s.singleNode.standardQuestion+"</div>\n";
+            ss = s.singleNode.list;
+            $.each(ss,function (i,b) {
+                tmpStr += "<p><span class=\"center\">"+b.itemId+"</span><span class=\"select\">"+b.description+":"+b.title+"</span></p>\n";
+            })
+        }
+        /*var ss = s.split("\\\\n");*/
+
+        /*$.each(ss,function(index,b){
+            if (index == 0){
+                tmpStr += "<div class=\"center-p last\">"+b+"</div>\n"
+            }else if(index > 0 && index < ss.length-1){
+                tmpStr += "<p><span class=\"center\">"+index+"</span><span class=\"select\">"+b+"</span></p>\n";
+            }
+        })*/
+        tmpStr +=  "\t\t\t\t\t\t\t<div class=\"again\" style='width:660px' ><img class='xiao' src=\"img/again.png\" alt=\"\"></div>\n"+
+            "\t\t\t\t\t\t\t\t\t</div>\n" +
+            "\t\t\t\t\t\t\t\t</div>\n" +
+            "\t\t\t\t\t\t\t</div>";
+        if(index == "1" || index == "2" || index == "3" || index == "10"){
+            tmpStr = "";
+        }
+        return tmpStr;
+    }
+
+    function test() {
+
+            //audioElementHovertree.setAttribute('src', 'output.mp3');
+            audioElementHovertree.pause();
+
+
+
+    }
+    //录音
+    function startRecord(){
+
+        quizyType = false;
+        FWRecorder.configure(16, 100, 0, 4000);
+        FWRecorder.record('audio', 'audio.wav')
+        setTimeout("stopRecord()",3000);
+        $("#question").attr("placeholder","机器人正忙...");
+        FWRecorder.observeLevel();
+    }
+    //暂停播放发送
+    function stopRecord(){
+
+        $(".nr-right-son-box").append("<div  class=\"question-box\"><p class=\"question voice\">&nbsp;&nbsp;&nbsp;&nbsp;<img style='margin-top: 20px;' src='img/bfan_03.png' </p></div>");
+        FWRecorder.stopRecording('audio');
+        $("#question").attr("placeholder","正在处理,请稍后...");
+        /*var question = FWRecorder.getBase64('audio');*/
+        FWRecorder.stopObservingLevel();
+        $(".voice").click(function () {
+            FWRecorder.playBack('audio');
+            FWRecorder.playBack('audio');
+        })
+        $.ajax({
+            url : "/robot/question",
+            processData: false,
+            contentType: false,
+            type : "post",
+            contentType: "application/json; charset=utf-8",
+            data :  JSON.stringify({
+                "type": "audio",
+                "question": FWRecorder.getBase64('audio')
+            }),
+            cache : true ,									//解决Get请求
+            async : true,									//是否支持异步
+            dataType : "json",								//设置响应的内容类型
+            success : function (data) {
+                var htmlStr = "";
+                if (data.code == 0){
+                    htmlStr = processMsg(data);
+                }else {
+                    $("#error").html(data.msg);
+                    $(".tck-box").show();
+                    $(".btnn").click(function () {
+                        $(".tck-box").hide();
+                    })
+                    setTimeout(function(){
+                        $(".tck-box").hide();
+                    },3000);
+                }
+                $(".nr-right-son-box").append(htmlStr);
+                shifang()
+            },
+            error: function(data) {
+                shifang();
+            }
+        })
+    }
+
+    /*释放按钮*/
+    function shifang(){
+        $('.again').click(function(){
+            $(".nr-right-son-box").append($("#tiwen"));
+            $(".nr-right-son-box").animate({'scrollTop' : "+=800px"}, 200);
+        });
+        $(".select").on("click",function () {
+            var str = $(this).html();
+            var s =  str.split("<br>");
+            $("#question").val(s[0]);
+        })
+        $(".nr-right-son-box").animate({'scrollTop' : "+=10000px"}, 200);
+        quizyType = true;
+        $("#question").attr("placeholder","请点击右侧麦克风提问...");
+    }
+
+
+    //发送文字问题
+    function submit() {
+        /*var obj =  {"code":0,"msg":"","RESULT":"1","R":{"id":"3b0c9d66-cfae-424d-bf11-a992222b5c19","statusCode":"200","replyType":"2","query":"电力 ","msg":{"DBSET":{"RESULT":"1","R":{"content":"是世界变化太快，还是我不够有才？为什么你说的我不明白？<br/> 目前，我学习的技能有限，请您提问如下业务问题：<br/> ● 户号绑定<br/> ● 缴费<br/> ● 电费电量<br/> ● 停电信息<br/> ● 报装<br/>","title":null,"msgType":"text","url":null}}}}}
+        */
+        quizyType = false;
+        var userId = $("").val();
+        var question = $("#question").val();
+        $(".nr-right-son-box").append("<div class=\"question-box\"><p class=\"question\">"+question+"</p></div>");
+        $("#question").val("");
+        $.ajax({
+            url : "/robot/question",
+            type : "post",
+            contentType: "application/json; charset=utf-8",
+            data : JSON.stringify({
+                /* "userId": userId , */
+                "type":"text",
+                "question": question
+            }),
+            cache : true ,									//解决Get请求
+            async : true,									//是否支持异步
+            dataType : "json",								//设置响应的内容类型
+            success : function (data) {
+                console.log(JSON.stringify(data));
+                var htmlStr = "";
+                if (data.code == 0){
+                    htmlStr = processMsg(data);
+                }else {
+                    $("#error").html(data.msg);
+                    $(".tck-box").show();
+                    $(".btnn").click(function () {
+                        $(".tck-box").hide();
+                    })
+                    setTimeout(function(){
+                        $(".tck-box").hide();
+                    },3000);
+                }
+                $(".nr-right-son-box").append(htmlStr);
+                $('.again').click(function(){
+                    $(".nr-right-son-box").append($("#tiwen"));
+                    $(".nr-right-son-box").animate({'scrollTop' : "+=800px"}, 200);
+                });
+                $(".select").on("click",function () {
+                    var str = $(this).html();
+                    var s =  str.split("<br>");
+                    $("#question").val(s[0]);
+
+                })
+                $(".nr-right-son-box").animate({'scrollTop' : "+=760px"}, 200);
+                quizyType = true;
+                $("#question").attr("placeholder","请点击右侧麦克风提问...");
+            },
+            error: function (data){
+            }
+        })
+    }
+</script>
+</html>
